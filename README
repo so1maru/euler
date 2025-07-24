@@ -1,0 +1,15 @@
+euler - Fast solutions in C99
+==============================
+Project euler (https://projecteuler.net/) is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve.
+
+Compiling
+------------------------------
+Any decent C compiler should work (the solutions were tested with gcc 15.1.1 on Arch Linux). For example, to compile <euler1.c> (the angled brackets are not part of the file name), type:
+
+    gcc euler1.c -o euler1 -std=c99 -Wall -O2
+
+to produce a binary named <euler1>. It should be in the same directory as the source code. Run the binary with 
+
+    ./euler1
+
+to ouput the solution.
