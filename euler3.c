@@ -21,4 +21,5 @@ int main() {
   }
   if(isPrime(n)) max = n;
   printf("%lld\n", max);
+  return 0;
 }
